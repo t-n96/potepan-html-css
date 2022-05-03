@@ -1,0 +1,454 @@
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.header {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+}
+
+
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 36px;
+  max-width: 100%;
+  position: relative;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.header-img {
+  height: 20px;
+  width: auto;
+}
+
+.header-img-sp {
+  display: none;
+  height: 16px;
+  width: auto;
+  
+}
+
+.header-imag img {
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.header-item {
+  margin-right: 45px;
+}
+
+.header-item:last-of-type {
+  margin-right: 0;
+}
+
+.header-link {
+  display: block;
+}
+
+.header-link span {
+  display: block;
+  font-weight: 700;
+  text-align: center;
+}
+
+.header-hamburger {
+  display: none;
+}
+
+.header-btn {
+  font-size: 12px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 38px;
+  border: none;
+  background-color: #f79214;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  height: 40px;
+  width: 148px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-btn:hover {
+  opacity: 0.8;
+}
+
+.firstView {
+  background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 28px;
+}
+
+.firstView-sp {
+  display: none;
+}
+
+.firstView-img {
+  width: 100%;
+}
+  
+
+.firstView-container {
+  max-width: 1140px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.firstView-content {
+  width: fit-content;
+  margin-bottom: 70px;
+}
+
+.content-title {
+  color: #000;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.content-images {
+  margin-bottom: 25px;
+}
+
+.content-images img {
+  margin-right: 8px;
+}
+
+.content-images img:nth-of-type(2) {
+  width: 40%;
+}
+
+.content-images img:last-of-type {
+  margin-right: 0;
+}
+
+.content-btn {
+  display: flex;
+}
+
+.content-btn a {
+  align-items: center;
+  background-color: #f79214;
+  border: none;
+  border-radius: 38px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  color: #fff;
+  height: 64px;
+}
+
+.content-btn a:first-of-type {
+  margin-right: 15px;
+  width: 306px;
+}
+
+.content-btn a:last-of-type {
+  width: 176px;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+}
+
+.content-btn a:first-of-type:hover {
+  opacity: 0.8;
+}
+
+.content-btn a:last-of-type:hover {
+  opacity: 0.8;
+}
+
+
+.content-caption {
+  font-size: 12px;
+  color: #a2a2a4;
+}
+
+.content-caption a {
+  color: #a2a2a4;
+  text-decoration: none;
+}
+
+.content-caption a:hover {
+  cursor: pointer;
+}
+
+.content-caption p {
+  line-height: 1.5;
+}
+
+.aboutWrapper {
+  background-color: #f79214;
+  padding: 44px 0;
+}
+
+.about {
+  max-width: 1140px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-video {
+  width: 50%;
+}
+
+video {
+  object-fit: contain;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  margin-left: 32px;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.about-text h2 {
+  font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+  font-weight: 900;
+  line-height: 10px;
+  letter-spacing: .1em;
+  width: 100%;
+  color: #fff;
+  text-align: left;
+}
+
+.about-text h2 span {
+  font-size: 38px;
+  font-family: 'Lato',sans-serif;
+}
+
+.about-text br {
+  display: none;
+}
+
+.about-text p {
+  font-size: 16px;
+  /*font-weight: 700;*/
+  line-height: 26px;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.about-btn {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #fff;
+  display: flex;
+}
+
+.about-btn:hover {
+  cursor: pointer;
+}
+
+.about-btn a {
+  text-decoration: none;
+}
+
+.about-btn img {
+  margin-right: 5px;
+}
+
+
+@media screen and (max-width: 1080px){
+  .header-hamburger {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
+  }
+  
+  .header-hamburger span {
+    position: absolute;
+    background-color: #000;
+    border-radius: 10px;
+    width: 100%;
+    height: 3px;
+    top: 50%;
+    display: block;
+  }
+  
+  .header-hamburger span:first-of-type{
+    top: 0;
+  }
+  
+  .header-hamburger span:last-of-type{
+    top: 100%;
+  }
+  
+  .header {
+    background-color: #fff;
+    z-index: 10;
+  }
+  .header-list {
+    display: none;
+  }
+  
+  .about {
+    flex-direction: column;
+  }
+  
+  .about-video {
+    width: 75%;
+  }
+  
+  .about-text {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about-video {
+    margin-bottom: 16px;
+  }
+  .about-text {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .header-img {
+    display: none;
+  }
+  .header-img-sp {
+   display: block;
+ }
+ 
+ .firstView {
+   background-image: none;
+   padding-top: 0;
+   padding-bottom: 35px;
+ }
+ .firstView-sp {
+   display: block;
+ }
+ .firstView-container {
+    margin-top: -50vw;
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .firstView-content {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .content-title {
+    font-size: 25px;
+    line-height: 36px;
+    margin-left: calc(((100vw - 100%)/2)*-1);
+    margin-right: calc(((100vw - 100%)/2)*-1);
+  }
+  .content-images {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .content-images img {
+    width: 27.5%;
+  }
+  .content-images img:nth-of-type(2) {
+    width: 40%;
+  }
+  .content-images img:last-of-type(2) {
+   margin-right: 0;
+  }
+  .content-btn {
+    flex-direction: column;
+  }
+  .content-btn a {
+    font-size: 14px;
+    width: 100% !important;
+  }
+  .content-btn a:first-of-type {
+    margin-right: 0;
+  }
+  .content-btn a:last-of-type {
+    display: none;
+  }
+  
+  .aboutWrapper {
+    padding: 30px 0;
+  }
+  .about {
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .about-video {
+    width: 100%;
+  }
+  .about-text {
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .about-text h2 {
+    font-size: 29px !important;
+  }
+  .about-text h2 span {
+    font-size: 30px;
+    letter-spacing: 0px;
+    white-space: nowrap;
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+  .about-text h2 {
+    line-height: 1.2;
+    word-break: keep-all;
+  }
+  .about-text br{
+    display: block;
+  }
+}
+
